@@ -1,9 +1,9 @@
-function App() {
+import List from './components/List';
+
+export default function App() {
   return (
-    <div className="App">
-      <h1>I love you, aninha dev</h1>
-    </div>
+    <>
+      <List initialItems={['Juan', 'Ana', 'Luna']} />
+    </>
   );
 }
-
-export default App;
